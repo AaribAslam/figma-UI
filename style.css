@@ -240,7 +240,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
 }
-.svg-hidden{
+.hidden-img{
     display: none;
 }
 .card-2-text-1 {
@@ -926,8 +926,12 @@ button {
     .card-2-box-1{
         width: 300px;
     }
-    .svg-hidden{
+    .hidden-img{
         display: block;
+    }
+
+    .card-2-box-2{
+        display: none;
     }
     .card-2-text-1{
         width: 183px;
